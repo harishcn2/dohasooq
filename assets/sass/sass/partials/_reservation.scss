@@ -1,0 +1,160 @@
+$font-stack: poppins-medium;
+$primary-color: #383838;
+
+.reservation_movie.clearfix {
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-top: 44px;
+
+        .r_Code {
+            text-align: center;
+        }
+        .full_qr-details {
+            padding: 30px 54px;
+        }
+        .reservation-code {
+            background-color: #313131;
+            color: #fff;
+            height: 112px;
+        }
+        .reservation-code > h4 {
+            color: #fff;
+            font-family: $font-stack;
+            padding-top: 25px;
+        }
+        .reservation-code > h2 {
+            color: #fbb12e;
+            font-family: $font-stack;
+            font-size: 40px;
+            margin-top: 10px;
+        }
+        .theatre_Address{
+            font-family:$font-stack;
+        }
+        .theatre_Address > h2 {
+            margin-top: 36px;
+            color: $primary-color;                         
+        }
+        .theatre_Address h5 {
+            font-size: 18px;
+        }
+        .img-responsive.qr {
+            margin: 0 auto;
+        }
+        .thank_you-text > h4 {
+            line-height: 150%;
+            max-width: 461px;
+            padding-left: 72px;
+            text-align: center;
+            width: 100%;
+        }
+        .q_code > h4 {
+            line-height: 150%;
+            text-align: center;
+            padding-left: 20px;
+            padding-right: 20px;
+            width: 100%;
+        }
+        .qr-code {
+            padding-bottom: 16px;
+            padding-top: 10px;
+            display: inline-block;
+        }
+        .q_code{
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        .feedback-ticket {
+            border-top: 2px solid #e4e4e4;
+            padding-top: 19px;
+            text-align: center;
+        }
+        #ticket_btn {
+            background-color: #e99e1f;
+            border-radius: 1px;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 28px;
+            padding: 12px 39px;
+        }
+        .feedback-ticket > h4 {
+            color: $primary-color;
+            font-size: 22px;
+        }
+
+
+
+        /****** Style Star Rating Widget *****/
+
+        .rating { 
+          border: none;
+         
+        }
+
+        .rating > input { display: none; } 
+        .rating > label:before { 
+          margin: 8px;
+          font-size: 4.25em;
+          font-family: FontAwesome;
+          display: inline-block;
+          content: "\f118";
+          margin-top: -10px;
+        }
+
+
+        .rating > label { 
+          color: #ddd; 
+
+        }
+
+        /***** CSS Magic to Highlight Stars on Hover *****/
+
+        .rating > input:checked ~ label, /* show gold star when clicked */
+        .rating:not(:checked) > label:hover, /* hover current star */
+        .rating:not(:checked) > label:hover ~ label { color: #EB9D1F;  } /* hover previous stars in list */
+
+        .rating > input:checked + label:hover, /* hover current star when changing rating */
+        .rating > input:checked ~ label:hover,
+        .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+        .rating > input:checked ~ label:hover ~ label { color: #EB9D1F;  } 
+
+}
+        /****** Responsive section starts here *****/
+
+        @media (max-width: 767px){
+            .reservation_movie.clearfix .full_qr-details {
+                padding: 30px 10px;
+            }  
+            .rating {
+                font-size: 11px;
+                margin: 0;
+            }
+        }
+        @media (max-width: 360px){
+            .q_code > h4 {
+                line-height: 150%;
+                padding-left: 0;
+            }
+            .rating {
+                font-size: 9px;
+                margin: 0;
+            }
+            .reservation_movie.clearfix .full_qr-details {
+                padding: 30px 10px;
+            }
+        }
+        @media (max-width: 320px){
+            .q_code > h4 {
+                line-height: 150%;
+                padding-left: 0;
+            }
+            .rating {
+                font-size: 9px;
+                margin: 0;
+            }
+            .reservation_movie.clearfix .full_qr-details {
+                padding: 30px 10px;
+            
+        }
+    }
+

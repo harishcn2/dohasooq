@@ -1,0 +1,366 @@
+$colororange:#e99e1f;
+.full-section {
+    background-color: #fff;
+    padding: 50px;
+}
+.image-responsive.poster {
+    width: 100%;
+    min-height: 541px;
+}
+.detail_section h5 {
+    font-size: 15px;
+    padding: 4px 0;
+}
+.about_section > h5 {
+    font-size: 15px;
+    line-height: 182%;
+    max-width: 602px;
+    text-align: justify;
+    width: 100%;
+}
+.detail_section .title {
+    width: 17%;
+    display: inline-block;
+}
+.detail_section .content {
+    display: inline-block;
+}
+#trailer_btn {
+    background-color: $colororange;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 16px;
+    padding: 12px 57px;
+}
+#movie_btn {
+    background-color: $colororange;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 16px;
+    padding: 12px 52px;
+}
+.image-responsive.imdb {
+    padding-right: 7px;
+}
+.share_section {
+    display: inline-block;
+}
+.share_section > h3 {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+}
+.image-responsive.fshare {
+    padding-left: 34px;
+}
+.image-responsive.tshare {
+    padding-left: 12px;
+}
+.share_section {
+    display: inline-block;
+    padding-bottom: 12px;
+    padding-top: 1px;
+}
+.booking_details_sec{
+    padding-bottom:30px;
+}
+.nav.ticket_available > li > a {
+    display: block;
+    border-color: transparent;
+    padding: 11px 50px;
+    position: relative;
+    text-align: center;
+    background-color: #383838;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 1px;
+    margin: 0;
+}
+.detail_section > h3 {
+    margin-top: 3px;
+}
+.nav.ticket_available > li.active > a, .nav.ticket_available.nav-tabs > li.active > a:hover, .nav.ticket_available.nav-tabs > li.active > a:focus {
+    background-color: #e99e1f;
+    border-color:#e99e1f;
+    color: #fff;
+    margin: 0;
+}
+
+.nav.ticket_available > li > a:hover{
+    background-color: #E99E1F;
+    border-right-color:white;
+    border-left-color:white;
+}
+.nav.ticket_available > li.disabled > a {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+.theatre-details {
+    border-bottom: 2px solid #e4e4e4;
+    padding: 12px 0;   
+}
+
+.theatre-details > h5:last-child {
+    color: #DE150E;
+    padding-top: 10px;
+}
+.theatre-details span {
+    color: #000;
+}
+.theatre-details > h5 {
+    color: #373737;
+    font-family: poppins-medium;
+    padding-top: 20px;
+}
+.ticket-details {
+    padding: 0 48px;
+}
+.nav.nav-tabs.ticket_available {
+    padding-left: 47px;
+}
+.nav.nav-tabs.ticket_available {
+    border-bottom: medium none;
+}
+.border_movie.clearfix {
+    background-color: #fff;
+    padding-bottom: 44px;
+    margin: 34px 0px;
+}
+.movie-details {
+    padding-left: 80px;
+}
+
+/**RESPONSIVE SECTION STARTS HERE**/
+
+@media (max-width: 1199px){
+    .nav.ticket_available > li > a {
+    padding: 11px 39px;
+}
+.detail_section .title {
+    width: 26%;
+}
+}
+@media (max-width: 999px){
+ .movie-details {
+    margin-top: 24px;
+    padding-left: 15px;
+}
+.nav.ticket_available > li > a {
+    padding: 11px 24px;
+    font-size:14px;
+}   
+}
+@media (max-width: 800px){
+ .movie-details {
+    margin-top: 24px;
+    padding-left: 15px;
+}
+.nav.ticket_available > li > a {
+    padding: 11px 24px;
+}   
+}
+@media (max-width: 768px){
+ .movie-details {
+    margin-top: 24px;
+    padding-left: 15px;
+}
+.nav.ticket_available > li > a {
+    padding: 11px 24px;
+}   
+}
+@media (max-width: 767px){
+    .border_movie.clearfix {
+    margin: 16px 0;
+    padding-bottom: 24px;
+}
+.full-section {
+    padding: 10px;
+}
+.nav.nav-tabs.ticket_available {
+    padding-left: 2px;
+}
+.movie-details {
+    padding-left: 18px;
+}
+.detail_section > h3 {
+    font-size: 19px;
+    padding-top: 15px;
+}
+.detail_section .title {
+    width: 100%;
+}
+.content {
+    padding-top: 10px;
+}
+.share_section > h3 {
+    display: block;
+}
+.image-responsive.fshare {
+    padding-left: 2px;
+    width: 37%;
+}
+.image-responsive.tshare {
+    width: 42%;
+}
+#trailer_btn {
+    width: 100%;
+}
+#movie_btn {
+    width: 100%;
+    margin-left: 0px;
+}
+.nav.ticket_available > li > a {
+    padding: 10px 40px;
+}
+.nav.ticket_available > li.disabled > a{
+    font-size: 14px;
+}
+.title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.image-responsive.imdb {
+    padding-top: 9px;
+}
+}
+@media (max-width: 730px){
+    .nav.ticket_available > li > a {
+    padding: 11px 35px;
+}
+}
+@media (max-width: 660px){
+    .nav.ticket_available > li > a {
+    padding: 11px 30px;
+}
+}
+/*@media (max-width: 590px){
+    .nav.ticket_available > li > a {
+    padding: 11px 25px;
+}
+}
+@media (max-width: 520px){
+    .nav.ticket_available > li > a {
+    padding: 11px 20px;
+}
+}
+@media (max-width: 450px){
+    .nav.ticket_available > li > a {
+    padding: 11px 15px;
+}
+}
+@media (max-width: 377px){
+    .nav.ticket_available > li > a {
+    padding: 11px 12px;
+}
+}*/
+@media (max-width: 360px){
+    .border_movie.clearfix {
+    margin: 16px 0;
+    padding-bottom: 24px;
+}
+.full-section {
+    padding: 10px;
+}
+.nav.nav-tabs.ticket_available {
+    padding-left: 2px;
+}
+.movie-details {
+    padding-left: 18px;
+}
+.detail_section > h3 {
+    font-size: 19px;
+    padding-top: 15px;
+}
+.detail_section .title {
+    width: 100%;
+}
+.content {
+    padding-top: 10px;
+}
+.share_section > h3 {
+    display: block;
+}
+.image-responsive.fshare {
+    padding-left: 2px;
+    width: 37%;
+}
+.image-responsive.tshare {
+    width: 42%;
+}
+#trailer_btn {
+    width: 100%;
+}
+#movie_btn {
+    width: 100%;
+    margin-left: 0px;
+}
+/*.nav.ticket_available > li > a {
+    padding: 5px 12px;
+    font-size: 10px;
+}
+*/
+.detail_section .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.image-responsive.imdb {
+    padding-top: 9px;
+}
+}
+@media (max-width: 320px){
+    .border_movie.clearfix {
+    margin: 16px 0;
+    padding-bottom: 24px;
+}
+.full-section {
+    padding: 10px;
+}
+.nav.nav-tabs.ticket_available {
+    padding-left: 2px;
+}
+.movie-details {
+    padding-left: 18px;
+}
+.detail_section > h3 {
+    font-size: 19px;
+    padding-top: 15px;
+}
+.detail_section .title {
+    width: 100%;
+}
+.content {
+    padding-top: 10px;
+}
+.share_section > h3 {
+    display: block;
+}
+.image-responsive.fshare {
+    padding-left: 2px;
+    width: 37%;
+}
+.image-responsive.tshare {
+    width: 42%;
+}
+#trailer_btn {
+    width: 100%;
+}
+#movie_btn {
+    width: 100%;
+    margin-left: 0px;
+}
+.nav.ticket_available > li > a {
+    padding:10px;
+}
+.detail_section .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.image-responsive.imdb {
+    padding-top: 9px;
+}
+}

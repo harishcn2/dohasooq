@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset='utf-8'/>
+    <title>jQuery elevateZoom Demo</title>
+    <script src="http://mikemoney.nazwa.pl/elevate/jquery-1.8.3.min.js"></script>
+    <script src="http://mikemoney.nazwa.pl/elevate/jquery.elevatezoom.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style type="text/css">
+        #sologrande {
+            width: 50%;
+            margin-top: 0px;
+            margin-right: auto;
+            margin-bottom: 0px;
+            margin-left: auto;
+            float: left;
+            max-width:500px;
+        }
+        h1 {
+            font-size: 14px;
+            color:royalblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-size:12px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+            margin:0;
+            padding:0;
+            font-weight: bold;
+            color:#222222;
+        }
+        p.mobile, p.landscape {
+            display: none;
+
+        }
+
+        p#status {
+            color:goldenrod;
+            font-weight: bold;
+        }
+        .wrapper{
+            max-width: 1000px;
+            margin:0 auto;
+            background:#dcdcdc;
+        }
+
+        #zoom_01 {
+            width:411px;
+        }
+        /*Target devices 240px - 320px width*/
+        @media only screen and (min-width: 240px) and (max-width: 320px) {
+            p.mobile
+            {
+                display: block;
+                color:red;
+            }
+            #zoom_01 {
+                width:200px;
+            }
+
+        }
+
+        /*Target devices 321px - 640px*/
+        @media only screen and  (min-width: 321px) and (max-width: 640px) {
+            p.landscape
+            {
+                display: block;
+                color:red;
+            }
+
+            #zoom_01 {
+                width:300px ;
+            }
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h1>[FIXED VERSION]</h1>
+<p class="mobile">Mode: <strong>Portrait</strong> (max-width: 320px)</p>
+<p class="landscape">Mode: <strong>Landscape</strong> (min-width: 321, max-width: 720px)</p>
+<p id="imgWidth">Image width</p>
+<p id="status">Status: Just loaded...</p>
+
+
+<div class="wrapper">
+    <div id="sologrande">
+        <img src="https://cdn.pixabay.com/photo/2016/09/01/10/23/image-1635747_960_720.jpg" name="zoom_01"  id="zoom_01" data-zoom-image="https://cdn.pixabay.com/photo/2016/09/01/10/23/image-1635747_960_720.jpg">
+    </div>
+</div>
+<div style="clear:both"></div>
+
+
+<script>
+    $("#zoom_01").elevateZoom({gallery:'cartera',zoomType:'inner', cursor: 'pointer',responsive: true, containInnerZoom: true, galleryActiveClass: 'active', imageCrossfade: true,zoomSizeMode:'image', loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'});
+
+    //Triggered when orientation is changed.
+    $( window ).on( "orientationchange", function() {
+        var windowWidth = $( window ).width(), // get window width
+                imgWidth = $( "#zoom_01").width(); // get image width
+        //Init elevateZoom
+        $("#zoom_01").elevateZoom({gallery:'cartera',zoomType:'inner', cursor: 'pointer',responsive: true, containInnerZoom: true, galleryActiveClass: 'active', imageCrossfade: true,zoomSizeMode:'image', loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'});
+        //display status
+        $( "#status" ).html("Status: Orientation changed!.");
+        //display image and window width
+        $( "#imgWidth" ).html("Image width: " + imgWidth + "px" + "<br />" + "Window width: " + windowWidth + "px");
+
+    });
+    //Triggered when window width is changed.
+    $( window ).on( "resize", function() {
+        var windowWidth = $( window ).width(), // get window width
+                imgWidth = $( "#zoom_01").width(); // get image width
+        //Init elevateZoom
+        $("#zoom_01").elevateZoom({gallery:'cartera',zoomType:'inner', cursor: 'pointer',responsive: true, containInnerZoom: true, galleryActiveClass: 'active', imageCrossfade: true,zoomSizeMode:'image', loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'});
+        //display status
+        $( "#status" ).html("Status: Window resized!.");
+        //display image and window width
+        $( "#imgWidth" ).html("Image width: " + imgWidth + "px" + "<br />" + "Window width: " + windowWidth + "px");
+    });
+
+    //Triggered on document ready
+    $( document ).ready(function() {
+        var windowWidth = $( window ).width(), // get window width
+                imgWidth = $( "#zoom_01").width(); // get image width
+        //Init elevateZoom
+        $("#zoom_01").elevateZoom({gallery:'cartera',zoomType:'inner', cursor: 'pointer',responsive: true, containInnerZoom: true, galleryActiveClass: 'active', imageCrossfade: true,zoomSizeMode:'image', loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'});
+        //display status
+        $( "#status" ).html("Status: Just loaded!");
+        //display image and window width
+        $( "#imgWidth" ).html("Image width: " + imgWidth + "px" +  "<br />" + "Window width: " + windowWidth + "px");
+    });
+</script>
+
+</body>
+</html>

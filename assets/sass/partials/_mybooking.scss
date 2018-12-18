@@ -1,0 +1,81 @@
+.movie_details{
+    .border_movie.clearfix {
+    background-color: #fff;
+    padding-bottom: 0px;
+    margin: 34px 0px;
+    .c_code {
+    color: #383838;
+    font-family: poppins-medium;
+    font-weight: bold;
+    padding-top:10px;
+    }
+    .c_code > span {
+        color: #eda52f;
+    }
+    .screen_details {
+        padding-top: 10px;
+    }
+    .total-amount_section {
+        background-color: #272727;
+        color: #fff;
+        height: 60px;
+    }
+    .total-amount_section > h5 {
+        display: inline-block;
+        font-family: poppins-medium;
+        font-size: 18px;
+        padding-left: 16px;
+        padding-top: 12px;
+    }
+    .total-amount_section > h4 {
+        color: #fcb036;
+        display: inline-block;
+        font-family: poppins-medium;
+        font-size: 24px;
+        margin-top: 12px;
+        padding-left: 17px;
+    }
+    .total-amount_section {
+        background-color: #272727;
+        color: #fff;
+        height: 60px;
+        margin-top: 35px;
+    }
+
+    .booked_ticketdetails.clearfix {
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        &:first-child{
+            padding-top: 0px;
+        }
+    }
+    .content_numbers {
+        color: #272727;
+        font-family: poppins-medium;
+        font-size: 18px;
+    }
+    .screen_details.title{
+        display:inline-block;
+        width:25%;
+    }
+    .screen_details.contents{
+        display:inline-block;
+    }
+    .fuull-section.clearfix {
+        padding: 0px 50px !important;
+    }
+}
+
+}
+
+@media(max-width: 1024px){
+    .movie_details .border_movie.clearfix .booked_ticketdetails {
+    &:last-child{
+        border-bottom: 0px; 
+    };
+    &:first-child{
+        padding-top:20px!important; 
+    };
+}
+}

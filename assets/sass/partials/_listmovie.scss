@@ -1,0 +1,189 @@
+$colororange:#e99e1f;
+.moviebooking_section {
+    background-color: #E99E1F;
+}
+.booking h5 {
+    color: #fff;
+    font-family: poppins-medium;
+    font-size: 19px;
+    text-align: center;
+}
+.booking {
+    display: inline-block;
+    width: 17%;
+    position: relative;
+    top: -8px;
+}
+.movie_dd {
+    display: inline-block;
+    width: 20%;
+    padding-top: 19px;
+}
+.book_btn {
+    display: inline-block;
+    width: 19%;
+}
+#book_btn {
+    background-color: #383838;
+    border-radius: 1px;
+    color: #fff;
+    min-height: 47px;
+    min-width: 100%;
+    position: relative;
+    top: -11px;
+}
+.movie_dd select {
+    background-color: #d89017;
+    border: 1px solid #d89017;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    height: 49px;
+    position: relative;
+    top: -9px;
+    width: 93%;
+    padding: 8px;
+}
+.show_section {
+    padding-top: 57px;
+    padding-bottom: 36px;
+}
+.now_Showing {
+    padding-top: 30px;
+}
+.movie_space {
+    padding-top: 40px;
+}
+.movie-img {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.top_movie.active > a {
+    color: #fbb031;
+    font-size: 19px;
+}
+.top_movie a {
+    color: #393738;
+    font-family: poppins-medium;
+    font-size: 18px;
+}
+.top_movie .active {
+    color: #e99e1f;
+}
+.top_movie {
+    border-bottom: 1px solid #e1e1e1;
+    text-align: center;
+}
+.action-btns > h5 {
+    color: #fff;
+    padding-left: 31px;
+    text-align: left;
+}
+.movie_name {
+    color: #ea9c1e !important;
+}
+ .nav.nav-tabs.selectors > li {
+    font-family: poppins-medium;
+    font-size: 18px;
+    text-align: center;
+    width: 33%;
+}
+.quickview-slider-items .inner-content.nopadding {
+    padding: 0;
+}
+.btn.booking-btn.ripple {
+    background-color: #E99E1F;
+    color: #fff;
+    margin-top: -95px;
+}
+
+.show_section{
+    .quickview-slider-items{
+        margin-bottom:20px;       
+    }
+    img.imdb {
+    height: 20px;
+    margin-right:10px;
+    }
+}
+.movie_tabs.nav-tabs>li.active>a, .movie_tabs.nav-tabs>li.active>a:focus, .movie_tabs.nav-tabs>li.active>a:hover {
+border: 0;
+color: #FAB12E;
+background-color: transparent;
+} 
+/**RESPONSIVE SECTION STARTS HERE**/
+@media (max-width: 990px){
+ .booking {
+    width: 100%;
+    top: 6px;
+}
+.movie_dd {
+    width: 32%;
+}
+.book_btn {
+    width: 95%;
+    margin-top: 17px;
+}
+.show_section{
+    quickview-slider-items{
+
+        } .inner-content-hover .action-btns{
+    padding-top: 0px;
+}
+}
+}
+@media (max-width: 767px){
+    .booking {
+    top: 6px;
+    width: 100%;
+}
+.movie_dd {
+    text-align: center;
+    width: 32%;
+}
+.book_btn {
+    margin-left: 21px;
+    margin-top: 17px;
+    width: 93%;
+}
+.nav.nav-tabs.selectors a {
+    font-size: 14px;
+}
+}
+@media (max-width: 360px){
+    .booking {
+    top: 6px;
+    width: 100%;
+}
+.movie_dd {
+    text-align: center;
+    width: 100%;
+}
+.book_btn {
+    margin-left: 9px;
+    margin-top: 17px;
+    width: 93%;
+}
+.nav.nav-tabs.selectors a {
+    font-size: 14px;
+}
+}
+@media (max-width: 320px){
+    .booking {
+    top: 6px;
+    width: 100%;
+}
+.movie_dd {
+    text-align: center;
+    width: 100%;
+}
+.book_btn {
+    margin-left: 9px;
+    margin-top: 17px;
+    width: 93%;
+}
+.nav.nav-tabs.selectors a {
+    font-size: 14px;
+}
+}

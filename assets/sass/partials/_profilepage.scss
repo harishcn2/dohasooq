@@ -1,0 +1,172 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+.body{
+   font-family: "Arial",Times New Roman, Georgia, Serif;
+}
+.profilee-section {
+    background-color: #fff;
+
+  .upload-button {
+      background-color: #fbb031;
+      border-radius: 50%;
+      float: right;
+      height: 46px;
+      margin-top: 130px;
+      position: relative;
+      right: 109px;
+      width: 14%;
+      z-index: 999;
+  }
+  .material_form_wrapper {
+  box-shadow:none;
+ }
+  #camera {
+      color: #fff;
+      font-size: 26px;
+      left: 2px;
+      padding-top: 10px;
+      position: relative;
+  }
+  .profile-name {
+      padding-top: 25px;
+      border-bottom: 1px solid #999999;
+  }
+  .product-img {
+      text-align: center;
+      padding-top: 55px;
+  }
+  #savebttn {
+      background-color: #e99e1f;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 19px;
+      margin-right: -13px;
+      margin-top: 30px;
+      text-align: center;
+      width: 22%;
+  }
+  .name-save {
+      text-align: center;
+  }
+  .address_form_name {
+      color: #797979;
+      font-size: 18px;
+      width: 30%;
+      display: inline-block;
+      font-family:poppins-medium;
+      padding-left:14px;
+  }
+  .checkbox.checkbox-warning {
+    padding: 16px 0;
+  }
+  .dash{
+    border: 0 none;
+    border-top: 2px dashed #322f32;
+    background: none;
+    height:0;
+  } 
+  .material-group-item > label {
+      color: #797979;
+  }
+  .gender {
+      color: #848484;
+      padding-bottom: 10px;
+      padding-top: 20px;
+  }
+  .material .material-group-item {
+      display: inline-block;
+      margin-left: 6px;
+  }
+  #profile_save {
+      border-radius: 3px;
+      margin-top: 2px;
+      padding: 9px 21px;
+  }
+  #login-save {
+      border-radius: 3px;
+      margin-top: 26px;
+      padding: 9px 21px;
+  }
+  .dassh {
+      border: 1px dashed #b2b2b2;
+      display: inline-block;
+      position: relative;
+      top: -4px;
+      width: 56%;
+  }
+  .cancel {
+      color: #797979;
+      display: inline-block;
+      text-align: right;
+      width: 12%;
+  }
+  .billing_form_name {
+      color: #797979;
+      display: inline-block;
+      font-size: 18px;
+      padding-top: 29px;
+      width: 18%;
+      font-family:poppins-medium;
+      padding-left:14px;
+  }
+  .dashh{
+    border: 1px dashed #b2b2b2;
+      display: inline-block;
+      position: relative;
+      top: -4px;
+    width: 70%;
+  }
+  .login-dash{
+    border: 1px dashed #b2b2b2;
+      display: inline-block;
+      position: relative;
+      top: -4px;
+    width: 88%;
+  }
+  .login_form_name {
+      color: #797979;
+      display: inline-block;
+      font-size: 18px;
+      width: 12%;
+      font-family:poppins-medium;
+      padding-left:14px;
+  }
+  .material_form_wrapper {
+  padding:20px 30px;
+   }
+   .namecancel {
+      color: #797979;
+      display: inline-block;
+      float: right;
+      padding-top: 19px;
+  }
+  .pro-pic {
+      width: 93%;
+  }
+  .profile-pic {
+    border: 6px solid #f6f6f6;
+    border-radius: 50%;
+  }
+  #usr {
+      border: medium none;
+      box-shadow: none;
+      display: inline-block;
+      font-size: 42px;
+      height: 67px;
+      color: #999999;
+  }
+  .form-group {
+      display: inline-block;
+      width: 80%;
+      margin: 0;
+  }
+  .gender_container{
+    .material-group-item{
+      min-width: 100px;
+    }
+  }
+}

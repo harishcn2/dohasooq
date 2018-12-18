@@ -1,0 +1,197 @@
+#event_btn {
+    background-color: #e99e1f;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 16px;
+    padding: 12px 52px;
+}
+.event_card {
+    background-color: #e99e1f;
+    border: 1px solid #e99e1f;
+    height: 81px;
+}
+.eventdate-select {
+    padding: 0 65px;
+}
+.event_time > h5 {
+    color: #383838;
+    font-family: poppins-medium;
+    font-size: 18px;
+    padding-top: 12px;
+}
+.timing {
+    color: #de150d !important;
+}
+.tickets-select {
+    padding: 0 63px;
+}
+.ticket_bg.clearfix {
+    background-color: #1C1C1C;
+    padding-bottom:47px;
+}
+.book_tickets > h3 {
+    color: #fff;
+    font-family: poppins-medium;
+    padding-left: 14px;
+    padding-top: 20px;
+}
+.input-group.ticketss {
+    margin-top: 50px;
+}
+.personss > h3 {
+    color: #eb9e1e;
+    font-family: poppins-medium;
+    font-size: 26px;
+}
+.personss > h5 {
+    color: #fff;
+    padding-top: 19px;
+}
+.btn.btn-danger.btn-number {
+    background-color: #e99e1f;
+    border-radius: 50%;
+    font-size: 19px;
+    border:none;
+}
+.btn.btn-success.btn-number {
+    background-color: #e99e1f;
+    border-radius: 50%;
+    font-size: 19px;
+    border:none;
+}
+.form-control.input-number {
+    background-color: transparent;
+    border: medium none;
+    color: #fff;
+    font-family: poppins-medium;
+    font-size: 21px;
+    margin-top: 6px;
+}
+.ticket_numbers.clearfix {
+    border-bottom: 1px solid #000;
+    padding-bottom: 23px;
+}
+.book_tickets > h5 {
+    color: #e99f22;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.map {
+    border: 1px solid #5b5b5b;
+    padding: 9px;
+}
+.guest_border.clearfix {
+    background-color: #4d4d4d;
+    color: #fff;
+    height: 100px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+    width: 80%;
+}
+.guest > h5 {
+    font-size: 16px;
+    margin-top: 26px;
+    font-family: poppins-medium;
+}
+.guest > h4 {
+    color: #fff;
+    font-family: poppins-medium;
+}
+.bill > h5 {
+    font-size: 16px;
+    margin-top: 26px;
+    font-family: poppins-medium;
+}
+.bill > h4 {
+    color: #fff;
+    font-family: poppins-medium;
+}
+#events_btn {
+    background-color: #e99e1f;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: 16px;
+    padding: 14px 0;
+    width: 79%;
+}
+@media (max-width: 1279px){
+    .tickets-select {
+    padding: 0px;
+}
+}
+@media (max-width: 999px){
+    .tickets-select {
+    padding: 0 15px;
+}
+.form-control.input-number {
+    text-align: center;
+}
+.eventdate-select {
+    padding: 9px 31px;
+}
+.guest_border.clearfix {
+    height: 163px;
+    width: 100%;
+}
+#events_btn {
+ width:95%;
+}
+}
+@media (max-width: 767px){
+    .tickets-select {
+    padding: 0 15px;
+}
+.form-control.input-number {
+    text-align: center;
+}
+.eventdate-select {
+    padding: 9px 31px;
+}
+.guest_border.clearfix {
+    height: 163px;
+    width: 100%;
+}
+#events_btn {
+ width:95%;
+}
+}
+@media (max-width: 360px){
+    .tickets-select {
+    padding: 0 15px;
+}
+.form-control.input-number {
+    text-align: center;
+}
+.eventdate-select {
+    padding: 9px 31px;
+}
+.guest_border.clearfix {
+    height: 163px;
+    width: 100%;
+}
+#events_btn {
+ width:95%;
+}
+}
+@media (max-width: 320px){
+    .tickets-select {
+    padding: 0 15px;
+}
+.form-control.input-number {
+    text-align: center;
+}
+.eventdate-select {
+    padding: 9px 31px;
+}
+.guest_border.clearfix {
+    height: 163px;
+    width: 100%;
+}
+#events_btn {
+ width:95%;
+}
+}

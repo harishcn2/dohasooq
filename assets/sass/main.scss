@@ -1,0 +1,23 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent: */
+
+@import "compass/reset";
+@import "partials/vendors";
+@import "partials/mixins_variables";
+@import "partials/layouts";
+@import "partials/bxslider";
+@import "partials/orderdet";
+@import "partials/profilepage";
+@import "partials/bookingTickets";
+@import "partials/mybooking";
+@import "partials/reservation";
+@import "partials/listmovie";
+@import "partials/event";
+@import "partials/common";
+@import "partials/form";
+@import "partials/style";
+@import "partials/shopcart";
+@import "partials/sellerlist";
+@import "partials/animate";
+@import "partials/style_rtl";
